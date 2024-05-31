@@ -40,7 +40,9 @@ Quickly get started with open pedigree on your computer:
 ```
 git clone git@github.com:phenotips/open-pedigree.git
 cd open-pedigree
+nvm use 18
 npm install
+export NODE_OPTIONS=--openssl-legacy-provider
 npm start
 ```
 Open a browser to http://localhost:9000/
